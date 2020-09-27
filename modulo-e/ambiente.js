@@ -1,16 +1,5 @@
-var a = 1
-var b = 1
-
-//while
-console.log('Estrutura "while"')
-while (a <= 5){
-    console.log(`Passo ${a}`)
-    a++
+console.log('Vai começar...')
+for(var c = 1;c <= 5;c++){
+    console.log(c)
 }
-//do while
-console.log('Estrutura "do while"')
-do {
-    console.log(`Passo ${b}`)
-    b++
-} while (b <= 5)
-
+console.log('FIM!')

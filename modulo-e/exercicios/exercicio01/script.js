@@ -15,6 +15,7 @@ function contar(){
     i = Number(i)
     f = Number(f)
     p = Number(p)
+    
     for (i; i <= f; i+=p){
         result += `${i} <span>&#128073;</span>`
     }
